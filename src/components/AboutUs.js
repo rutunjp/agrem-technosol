@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className="bg-white py-10 lg:py-20">
+    <div className="bg-white py-10 lg:py-20 rounded-lg shadow-md p-8 m-3 transform hover:-translate-y-2 transition duration-300 ease-in-out">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-center lg:justify-between">
           <div className="max-w-2xl">
@@ -39,7 +39,7 @@ const AboutUs = () => {
           </div>
           <div className="mt-10 lg:mt-0">
             <img
-              className="h-64 w-64  mx-auto lg:mx-0"
+              className="m-h-64 object-fit mix-blend-multiply max-w-64  mx-auto lg:mx-0"
               src="/AgremLogo.jpg"
               alt="About Us"
             />

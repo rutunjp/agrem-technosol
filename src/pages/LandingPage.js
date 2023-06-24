@@ -1,5 +1,5 @@
 "use client"
-import React, { useState,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import AboutUs from '@/components/AboutUs';
 import CardList from '@/components/CardList';
@@ -8,7 +8,7 @@ import Footer from '@/components/Footer';
 import NavBar from '@/components/NavBar';
 import CarouselComponent from '@/components/CarouselComponent';
 import { FaChevronUp } from 'react-icons/fa';
-
+import Header from '@/components/Header/Header';
 
 const LandingPage = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -35,19 +35,53 @@ const LandingPage = () => {
   }, []);
 
   return (
-    <>
+    <div className='w-100'>
       <NavBar />
+
       <div className="container mx-auto px-4 sm:px-6 lg:p-8">
-        <div className="max-w-5xl mx-auto">
-          <div className='p-5'>
-          <CarouselComponent />
+        <Header />
+        <div className="">
+          <div className='' id='HOME'>
+            <CarouselComponent />
           </div>
-    
+          <div>
+          </div>
+          <div>
+            <br />
+          </div>
+          <div>
+            <br />
+          </div>
           <CardList />
-         <div id='ABOUTUS'>
-         <AboutUs />
-         </div>
+
+          <div id='FEATURES'>
+          <div>
+            <br />
+          </div>
+          <div>
+            <br />
+          </div>
+            <br/>
+          </div>
           <Feature />
+          <div id='ABOUTUS'>
+          </div>
+          <div>
+            <br />
+          </div>
+          <div>
+            <br />
+          </div>
+
+          <AboutUs />
+          <div>
+          </div>
+          <div>
+            <br />
+          </div>
+          <div>
+            <br />
+          </div>
         </div>
       </div>
       {showScrollButton && (
@@ -59,7 +93,7 @@ const LandingPage = () => {
         </button>
       )}
       <Footer />
-    </>
+    </div>
   );
 };
 

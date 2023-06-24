@@ -16,7 +16,7 @@ const NumberCounter = ({ value }) => {
 
 const Feature = () => {
   return (
-    <div className="bg-white rounded-lg shadow-md p-8 transform hover:-translate-y-2 transition duration-300 ease-in-out">
+    <div className="bg-white rounded-lg shadow-md p-8 transform hover:-translate-y-2 transition duration-300 ease-in-out m-3">
       <h2 className="text-2xl font-bold mb-4">FEATURES</h2>
       <p className="text-gray-600 mb-6">Developing Advanced Sensors For Demanding Applications</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-center">
