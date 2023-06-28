@@ -44,36 +44,15 @@ const LandingPage = () => {
           <div className='' id='HOME'>
             <CarouselComponent />
           </div>
-          <div>
-          </div>
-          <div>
-            <br />
-          </div>
-          <div>
-            <br />
-          </div>
           <CardList />
 
           <div id='FEATURES'>
-          <div>
-            <br />
-          </div>
-          <div>
-            <br />
-          </div>
-            <br/>
-          </div>
+            <br></br>
           <Feature />
+          </div>
           <div id='ABOUTUS'>
-          </div>
-          <div>
-            <br />
-          </div>
-          <div>
-            <br />
-          </div>
-
           <AboutUs />
+          </div>
           <div>
           </div>
           <div>

@@ -28,9 +28,10 @@ export default () => {
                             ></path>
                         </svg>
                     ) : (
-                        <div className="w-screen h-screen backdrop-blur-lg text-white flex flex-row">
+                        <div className="w-screen h-screen bg-black text-white flex flex-col">
+                            <div className="w-full bg-gray-500 p-1">
                             <svg
-                                className="block h-6 w-6 bg-black rounded"
+                                className="block h-6 w-6  rounded "
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
                                 viewBox="0 0 24 24"
@@ -43,8 +44,10 @@ export default () => {
                                     d="M6 18L18 6M6 6l12 12"
                                 ></path>
                             </svg>
+                            
+                            </div>
                             <section className="MOBILE-MENU flex lg:hidden">
-
+                                
                                 <ul className="flex flex-col m-1 p-1 items-center">
                                     <li className="p-5">
                                         <Link

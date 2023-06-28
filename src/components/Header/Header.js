@@ -10,8 +10,7 @@ export default () => {
     };
     return (
         <div
-            className="fixed justify-center z-10"
-            style={{ top: "84px", width: "100%", left:"10px",right:"10px"}}
+            className="fixed top-0 left-0 justify-center z-10"
         >
             <div className="flex flex-row bg-white text-black w-screen mb-5">
             <div className="">
